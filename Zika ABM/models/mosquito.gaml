@@ -77,7 +77,7 @@ global{
 		create mosquito  number:mosquito_no {
 		
 				my_water_source <- one_of(water_source);
-				location <- any_location_in(my_water_source);	
+				//location <- any_location_in(my_water_source);	
 				mos_age <- 0;			
 			
 		}
